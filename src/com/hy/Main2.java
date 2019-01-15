@@ -18,6 +18,7 @@ public class Main2 {
 		   executors.submit(() -> {
 			   for (int j = 0; j < 1000; j++) {
 				    x++;
+				    
 			  }
 		   });
      	}
